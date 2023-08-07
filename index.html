@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>♥️TEST</title>
+</head>
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <!-- <img src="{% static 'Octocat.png' %}" class="App-logo" alt="logo" /> -->
+			<br><br>
+			<div id="time">
+				<iFrame name="content_iframe" src='./a.html' width="350" height="350" scrolling="no" frameborder=0></iFrame>
+			</div>
+            <p>
+                GitHub Codespaces <span class="heart">♥️</span> Django
+            </p>
+            <p class="small">
+                Edit<code> index.html </code>and see changes live!
+            </p>
+			<img src="https://camo.githubusercontent.com/b312f657f6d4ba9594de710213ddb9c73b34a8743d774628d9c5a2992f850553/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f6b6d6e65722f636f756e742e737667" alt="Visitor Count" data-canonical-src="https://profile-counter.glitch.me/kmner/count.svg" style="max-width: 100%;">
+			<!-- MetingJS音乐播放器 不能放到 head 导致系统功能加载异常-->
+			<div class="music">
+				<link rel="stylesheet" href="./js/APlayer.min.css">
+				<script src="./js/APlayer.min.js"></script>
+				<script src="./js/Meting.min.js"></script>
+
+				<!-- server="tencent" type="playlist" id="7484264517" -->
+				<!-- server="netease" type="playlist" id="2575711792" -->
+                <!-- server="kugou" type="song" id="7NvErc3BbV2" -->
+
+				<meting-js server="netease" type="playlist" id="2575711792"  autoplay="false" fixed ="true"></meting-js>
+			</div>
+		</header>
+    </div>
+</body>
+
+</html>
